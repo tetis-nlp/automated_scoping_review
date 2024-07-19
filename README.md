@@ -1,12 +1,22 @@
 # Automated Updates for Scoping Reviews of Environmental Drivers of Human and Animal Diseases
 
+This study aims to compare three NLP methods for extracting named entities with complex labels and very limited training data.
+
+We compare:
+
+- Fine-tuning BERT on NER classification
+- Data augmentation with GPT-3.5 and fine-tuning BERT on both the original and data-augmented training datasets
+- OpenAI (GPT-3.5 and GPT-4) with RAG based on the same training dataset
+
+We trained our methods on an Influenza corpus and evaluated the ability of these approaches to generalize to other diseases (Leptospirosis and Chikungunya).
 
 ## Reproduce the Article
 
 ### 0. Download the Papers and Their Manual Annotations
 1. Download the manual annotations:
 
-- [Manual scoping review made by the MOOD project](https://doi.org/10.5281/zenodo.11241409)
+- [Manual scoping review made by the MOOD project](https://doi.org/10.5281/zenodo.11241409). Manual annotation at document level with normalization of entities extracted
+- Manual annotation at sentence level: *Work in progress*
 
 2. Download the papers used for the manual annotations:
    - Download all the papers mentioned in the manual annotation using their DOI.
