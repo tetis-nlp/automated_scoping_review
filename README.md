@@ -72,6 +72,9 @@ Compare cosine similarity between pairs (annotation/prediction). Extract only th
 
 Run this script: [Evaluate_at_document_level.py](src/Evaluate_at_document_level.py).
 
+### 4. Analysing differences between generalization among others diseases
+As regards the generalization across diseases practical examples have been gathered in a sheet ([[link](analysing_results/AI_MODELS_COMPARISON.xlsx)]). Three articles were selected for each disease (CC22,CC17,CC12). A special focus was made on `Humidity` as covariate to explain the similarities and/or differences in impact among the diseases focusing  on similarities and contextualization of the terms used in scientific language in the text extracted by the models. As illustrated by the sheet, although you can find "Humidity" as a word in all the diseases, the related other words are more similar between influenza and leptospirosis than influenza and Chikungunya (words highlighted  in bold). 
+
 --------------------
 **Acknowledgement**:
 
