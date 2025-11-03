@@ -76,6 +76,24 @@ Run this script: [Evaluate_at_document_level.py](src/Evaluate_at_document_level.
 As regards the generalization across diseases practical examples have been gathered in a sheet ([[link](analysing_results/AI_MODELS_COMPARISON.xlsx)]). Three articles were selected for each disease (CC22,CC17,CC12). A special focus was made on `Humidity` as covariate to explain the similarities and/or differences in impact among the diseases focusing  on similarities and contextualization of the terms used in scientific language in the text extracted by the models. As illustrated by the sheet, although you can find "Humidity" as a word in all the diseases, the related other words are more similar between influenza and leptospirosis than influenza and Chikungunya (words highlighted  in bold). 
 
 --------------------
+## Citing this work
+
+If you use this project in your research, please cite the following article:
+
+### BibTeX
+```bibtex
+@article{Decoupes2025,
+  title   = {Automating updates for scoping reviews on the environmental drivers of human and animal diseases: a comparative analysis of AI methods},
+  author  = {Decoupes, Rémy and Cataldo, Claudia and Busani, Luca and Roche, Mathieu and Teisseire, Maguelonne},
+  journal = {Frontiers in Artificial Intelligence},
+  year    = {2025},
+  volume  = {8},
+  pages   = {1526820},
+  doi     = {10.3389/frai.2025.1526820},
+  url     = {https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1526820/full}
+}
+```
+--------------------
 **Acknowledgement**:
 
 This study was partially funded by EU grant 874850 MOOD. The contents of
